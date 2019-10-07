@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>560</width>
+    <height>246</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>560</width>
+    <height>246</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>560</width>
+    <height>246</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Encodex Help</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>521</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>This application is pretty straight forward. You have to enter some values in the input box using the virtual keys and to get corresponding ASCII, Binary or Hexadecimal value, press any of these operation buttons-- Get ASCII Value, Get Binary Value, Get Hex Value.
+
+Note:
+For an integer value, 'Get Binary Value' &amp; 'Get Hex Value' will return the Binary value and the Hexadecimal value of that integer respectively. But for a string (alphabet or alphanumeric string or special character), they will return the Binary value or the Hexadecimal value of the corresponding ASCII integer of the string(including digits).</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>190</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Quit Help</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>267</x>
+     <y>211</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>279</x>
+     <y>122</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
