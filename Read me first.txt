@@ -1,0 +1,35 @@
+
+It was very first GUI application in python.
+
+**As you can see, we have 4 pieces of Py files.**
+----------------------------------------------------------------
+
+Encodex Application.py 
+
+==> This is the main .py file. When you run this code in Python interpreter, the application will start running(with the GUI).
+
+Encodex_code.py	
+		
+==> This file contains all the methods, functions, and all the stuff to give functionality to the application. MAYBE THIS THE CODE WHAT YOU'RE LOOKING FOR! 
+
+Encodex_ui.py	
+		
+==> As the name suggests, this is the Python file responsible for creating the overall main GUI of the application. Generated using PyQt.
+
+Encodex_about_window.py
+	
+==> Responsible for "About window". Generated using PyQt.
+
+Encodex_help.html	
+	
+==> Help HTML file of the application.
+
+
+*****Modules required(External modules to run the code)*****
+-------------------------------------------------------------
+
+PyQt5
+pip install PyQt5
+
+Pyperclip
+pip install pyperclip
